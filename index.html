@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Page Title</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.........</title>
+    <script src="script.js" defer></script> <!-- Linking the external JavaScript file -->
 </head>
 <body>
-<h1>Hello Baby</h1>
-<p>Can you be my Valentine?</p>
+    <div id="container">
+        <h1>Will you be my Valentine?</h1>
+        <button id="yesBtn">YESSSSSS</button>
+        <button id="noBtn">NAUR</button>
+        <video id="valentineImage" src="ugh.mp4" controls></video>
+        <video id="sadImage" src="vid.mp4" controls></video>
+        <audio id="valentineAudio" src="White.mp3"></audio>
+    </div>
+
+    <div id="custom-confirm" class="modal">
+        <div class="modal-content">
+          <img src="pandesal.jpeg" alt="Abs ni felmar" />
+          <br>
+            <p1>Di gyud ka? Sayang akong pandesal</p1>
+          <br>  
+            <button id="confirmYesBtn">Di gyud</button>
+            <button id="confirmNoBtn">Tik ra</button>
+        </div>
+    </div>
+
+    <div id="custom-alert" class="modal">
+        <div class="modal-content">
+          <img src="bulak.jpeg" alt="Rose" />
+            <p>Thank you for being my Valentine! Can't wait to celebrate love with you. Happy Valentine's Day!</p>
+            
+            
+            <button id="okBtn">OK</button>
+        </div>
+    </div>
 </body>
 </html>
